@@ -1,6 +1,6 @@
 {
   "transform": {
-    "^.+\\.tsx?$": ["@swc/jest"]
+    "^.+\\.tsx?$": "babel-jest"
   },
   "transformIgnorePatterns": [
     "/node_modules/(?!@openmrs)"
